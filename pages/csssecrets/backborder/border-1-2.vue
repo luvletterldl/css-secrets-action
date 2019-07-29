@@ -3,6 +3,8 @@
     <span class="box-shadow">11</span>
     <span class="outline">22</span>
     <span class="outline-1">21</span>
+    <span class="shadow">12</span>
+    <span class="doubule-shadow">111</span>
   </div>
 </template>
 
@@ -34,4 +36,10 @@ export default {
     border 10px solid #655
     outline 5px solid deeppink
     outline-offset -.5vh
+  .shadow
+    background #F3FD33
+    box-shadow 0 5px 3px -3px #715 // 单侧投影
+  .doubule-shadow
+    background #F3FD33
+    box-shadow 5px 0 5px -5px black, -5px 0 5px -5px black
 </style>
